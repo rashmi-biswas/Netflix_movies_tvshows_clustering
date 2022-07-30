@@ -13,14 +13,20 @@ This iconic intro sound has got so much popularity in the recent years due to th
 
 Netflix has become dominant company in the on-demand media industry, with 167 million paying subscribers around the world. By creating compelling original programming, analyzing its user data to serve subscribers better, and above all by letting people consume content in the ways they prefer. Netflix disrupted the television industry and forced cable companies to change the way they do business.
 
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <h2>📄 Introduction</h2>
 Netflix initially started as a DVD rental service in 1998. It mostly relied on a third-party postal service to deliver its DVDs to the users. This resulted in heavy losses which they soon mitigated with the introduction of their online streaming service in 2007. In order to make this happen, Netflix invested in a lot of algorithms to provide a flawless movie experience to its users. One of such algorithms is the recommendation system that is used by Netflix to provide suggestions to the users. A recommendation system understands the needs of the users and provides suggestions of the various cinematographic products.
 
 The recommendation system searches for movies that are similar to the ones you have watched or have liked previously. It makes easier for the user to choose better options from a wide variety of movie products. With over 139 million paid subscribers (total viewer pool ~300 million) across 190 countries, 15,400 titles across its regional libraries and 112 Emmy Award Nominations in 2018 — Netflix is the world’s leading Internet television network and the most-valued largest streaming service in the world. The amazing digital success story of Netflix is incomplete without the mention of its recommender systems that focus on personalization. There are several methods to create a list of recommendations according to your preferences. You can use Collaborative filtering and Content-based Filtering for recommendation.
 
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <h2>🎯 Objective</h2>
 Netflix Recommender recommends Netflix movies and TV shows based on a user's favorite movie or TV show. It uses a Natural Language Processing (NLP) model and a K-Means Clustering model to make these recommendations. These models use information about movies and TV shows such as their plot descriptions and genres to make suggestions. 
 The motivation behind this project is to develop a deeper understanding of recommender systems and create a model that can perform Clustering on comparable material by matching text-based attributes. Specifically, thinking about how Netflix create algorithms to tailor content based on user interests and behavior.
+
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2>💾 Data</h2>
 This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Fixable which is a third-party Netflix search engine.
@@ -43,6 +49,8 @@ The following are the columns in the dataset:
 * listed_in : Genere
 * description: The Summary description
 
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <h2>🛠️ Tools and Technologies Used</h2>
 The whole project was done using python, in Google Collaboratory. 
 
@@ -58,6 +66,8 @@ Following libraries were used for analyzing the data and visualizing it and to b
 * Wordcloud: Visual representation of text data.
 * Sklearn: For the purpose of analysis and prediction.
 
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <h2>🪜 Steps Involved</h2>
 
 * Handling missing values 
@@ -68,3 +78,39 @@ Following libraries were used for analyzing the data and visualizing it and to b
 * Tfidf vectorization
 * Data Preprocessing
 * Clustering
+
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2>🪄 Algorithms Used</h2>
+
+* K-means
+* DBSCAN
+* Hierarchical Clustering
+* Agglomerative Clustering
+
+![--](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2>💡 Conclusion</h2>
+
+<b>EDA Findings</b> 
+
+* Most of the type of content on Netflix is Movies which is 69.14%, whereas TV shows consist of 30.86% of the content. 
+* The most frequent visitors of Netflix are Adults and Teens. 
+* Production growth increased gradually after 2014 and experienced a downfall again in 2020. Covid epidemic can be a major reason behind the downfall in production. 
+* Most of the content added on Netflix is in the month of October, November, December, and January. Maybe the festival season followed by the vacation season of Christmas and New Year can be the possible reason behind this.
+* The top genre of movies on Netflix is Documentaries, Stand up Comedy, Dramas, and International Movies. 
+* The average length of movies on Netflix is about 100 minutes. 
+* Most of the content on Netflix is added by the United States, followed by India and United Kingdom. 
+* Most frequently occurring words in the title of Netflix Movies are Love, Christmas, Life, World, Man, Story, Girl, Day, One, Game, and Secret. 
+* In all other countries, the maximum population using Netflix is Adults. But in India, the maximum population is teenagers. 
+
+Tailored recommendations can be made based on information about movies and TV shows. In addition, similar models can be developed to provide valuable recommendations to consumers in other domains. 
+
+After applying different clustering models like Kmeans, hierarchical, Agglomerative clustering, and DBSCAN on the Netflix dataset, we got the best cluster arrangements using which we can suggest recommendations to the users. By applying different clustering algorithms to our dataset, we get the optimal number of clusters is equal to 3.
+
+<br>
+
+<p align="center"> 
+<img src="images/Netflix-Free-Premium.jpg" height="400px">
+</p>
+
